@@ -1,0 +1,6 @@
+/fetched-confluence-docs
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.env

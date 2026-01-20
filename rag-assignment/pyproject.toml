@@ -1,0 +1,19 @@
+[project]
+name = "rag-assignment"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests>=2.31.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.2.0",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-mongodb>=0.2.0",
+    "pymongo[srv]>=4.6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
